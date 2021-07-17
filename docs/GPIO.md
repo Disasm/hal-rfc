@@ -7,6 +7,8 @@
   * Preferred, as different MCUs have different buses for GPIO
 * No arguments (F4)
   * Even better, but requires critical sections or `unsafe`
+* `Parts::new(gpio)` (nRF52)
+  * no trait, no split, no convenience?
 
 ## Pin setup
 
